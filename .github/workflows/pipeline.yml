@@ -29,6 +29,10 @@ jobs:
     - name: Run Tests
       run: npm test
 
+    # NEW STEP: Run App
+    - name: Run the App
+      run: node index.js
+
     # Step 5: Mock Deployment
     - name: Deploy
       run: echo "Deploying application to production server..."
