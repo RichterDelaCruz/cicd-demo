@@ -13,6 +13,8 @@ The GitHub Actions workflow (`.github/workflows/pipeline.yml`) performs the foll
 ## How to Trigger
 Pushing a commit to the `main` branch automatically triggers this workflow.
 
+# Linux and Scripting
+
 ## Disk Usage Script
 The bash script is located in this repository as **`monitor_disk.sh`**.
 To use it, you would run:
